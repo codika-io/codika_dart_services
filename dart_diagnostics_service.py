@@ -6,7 +6,7 @@ File: codika_dart_analyzer/dart_diagnostics_service.py
 
 import asyncio
 import logging
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List
 from pathlib import Path
 from datetime import datetime
 

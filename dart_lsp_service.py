@@ -5,10 +5,9 @@ File: codika_dart_analyzer/dart_lsp_service.py
 """
 
 import json
-import socket
 import asyncio
 import logging
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional
 from pathlib import Path
 
 logger = logging.getLogger(__name__)

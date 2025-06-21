@@ -5,8 +5,7 @@ File: codika_dart_analyzer/dart_code_intelligence_service.py
 """
 
 import logging
-from typing import Dict, Any, List, Optional
-from pathlib import Path
+from typing import Dict, Any, List
 
 from .dart_lsp_service import DartLSPService
 
