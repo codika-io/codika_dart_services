@@ -4,7 +4,6 @@ Handles workspace and project management functionality
 File: codika_dart_analyzer/dart_workspace_service.py
 """
 
-import os
 import yaml
 import logging
 from typing import Dict, Any, List
