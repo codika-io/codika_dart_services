@@ -1,11 +1,12 @@
 [project]
 name = "codika_dart_services"
-version = "0.1.0"
+version = "0.1.1"
 description = "Shared Dart analysis services for Codika projects"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  { name="Codika", email="dev@codika.ai" },
+    { name="Luca Derumier", email="luca@codika.io" },
+    { name="Romain Pattyn", email="romain@codika.io" },
 ]
 license = "MIT"
 dependencies = [
