@@ -1,6 +1,6 @@
 [project]
 name = "codika_dart_services"
-version = "0.1.1"
+version = "0.1.2"
 description = "Shared Dart analysis services for Codika projects"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -11,4 +11,12 @@ authors = [
 license = "MIT"
 dependencies = [
     "PyYAML>=6.0",
-] 
+]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["codika_dart_services*"] 

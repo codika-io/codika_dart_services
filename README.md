@@ -9,18 +9,18 @@ stable, decoupled namespace.
 Install directly from the private GitHub repository that hosts this package:
 
 ```bash
-pip install "codika_dart_services @ git+ssh://git@github.com/codika-ai/codika_dart_services.git@v0.1.0"
+pip install "codika_dart_services @ git+ssh://git@github.com:codika-io/codika_dart_services.git@v0.1.2"
 ```
 
 Add the same line to your `pyproject.toml` (or `requirements.txt`) so CI and other developers get the library automatically:
 
 ```toml
-codika_dart_services @ git+ssh://git@github.com/codika-ai/codika_dart_services.git@v0.1.0
+codika_dart_services @ git+ssh://git@github.com:codika-io/codika_dart_services.git@v0.1.2
 ```
 
 Notes:
 1. Use the **SSH** URL (`git+ssh://git@github.com/...`) so that `pip` authenticates with the SSH key already configured on your machine/CI runner.  HTTPS URLs require a personal-access token.
-2. Always pin to a tag (e.g. `@v0.1.0`) or commit hash for reproducible builds.
+2. Always pin to a tag (e.g. `@v0.1.2`) or commit hash for reproducible builds.
 3. If you move the repository under a different organisation or rename it, update the URL accordingly.
 
 
