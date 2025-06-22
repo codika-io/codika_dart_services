@@ -23,6 +23,14 @@ Notes:
 2. Always pin to a tag (e.g. `@v0.1.2`) or commit hash for reproducible builds.
 3. If you move the repository under a different organisation or rename it, update the URL accordingly.
 
+## Pushing a new version
+
+Update the version in `pyproject.toml` and run 
+
+```bash
+git tag -a vX.X.X -m "Release vX.X.X"
+git push origin vX.X.X
+```
 
 ## Usage
 
