@@ -9,13 +9,13 @@ stable, decoupled namespace.
 Install directly from the private GitHub repository that hosts this package:
 
 ```bash
-pip install "codika_dart_services @ git+ssh://git@github.com:codika-io/codika_dart_services.git@v0.1.2"
+pip install "codika_dart_services @ git+ssh://git@github.com/codika-io/codika_dart_services.git@v0.1.2"
 ```
 
 Add the same line to your `pyproject.toml` (or `requirements.txt`) so CI and other developers get the library automatically:
 
 ```toml
-codika_dart_services @ git+ssh://git@github.com:codika-io/codika_dart_services.git@v0.1.2
+codika_dart_services @ git+ssh://git@github.com/codika-io/codika_dart_services.git@v0.1.2
 ```
 
 Notes:
