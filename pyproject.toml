@@ -1,6 +1,6 @@
 [project]
 name = "codika_dart_services"
-version = "0.1.4"
+version = "0.1.6"
 description = "Shared Dart analysis services for Codika projects"
 readme = "README.md"
 requires-python = ">=3.9"
